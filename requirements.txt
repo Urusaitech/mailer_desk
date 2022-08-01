@@ -2,3 +2,5 @@ pyperclip
 numpy
 pandas
 pyqt5
+auto-py-to-exe
+requests

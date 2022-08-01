@@ -6,9 +6,7 @@ import sys
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtWidgets import QApplication, QWidget, QListWidget, QListWidgetItem, QMessageBox, QFileDialog
 import os
-import re
 import pyperclip
-from numpy.core.defchararray import rindex
 
 import helper
 import bd_converter
@@ -47,7 +45,7 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
     #        pass
 
     def browse_folder(self):
-        directory = QtWidgets.QFileDialog.getExistingDirectory(self, "Выберите папку")
+        directory = QtWidgets.QFileDialog.getExistingDirectory(self, "Choose folder")
         if directory:
             for file_name in os.listdir(directory):
                 self.listWidget.addItem(file_name)
@@ -66,15 +64,15 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         try:
             bd_converter.convert_bd(self.dialog())
             msg = QMessageBox()
-            msg.setWindowTitle("БД")
-            msg.setText("Успех!")
+            msg.setWindowTitle("DB")
+            msg.setText("Success!")
 
             msg.exec_()
 
         except:
             alert = QMessageBox()
-            alert.setWindowTitle("Настройка БД")
-            alert.setText("Какая-то ошибка, подумай ещё")
+            alert.setWindowTitle("DB Set up")
+            alert.setText("An error occurred")
             alert.setIcon(QMessageBox.Warning)
 
             alert.exec_()
@@ -108,7 +106,7 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         if 'com' in check:
             self.insert_link()
         else:
-            self.textBrowser_title.setText('Ошибка! Требуется ссылка вида 1xBit.com/***')
+            self.textBrowser_title.setText('Error! Your link should look like example.com/***')
 
     def insert_link(self):
         global insert, link, text, text_to_copy
@@ -189,7 +187,7 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
             listing = self.plainTextEdit_list.toPlainText()
             italic = self.plainTextEdit_italic.toPlainText()
 
-            path = QtWidgets.QFileDialog.getExistingDirectory(self, "Куда сохранять?")
+            path = QtWidgets.QFileDialog.getExistingDirectory(self, "Choose a folder to save in")
 
             if sec_pic_link == "ссылка на вторую картинку":
                 html_edit.create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
