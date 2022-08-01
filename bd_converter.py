@@ -1,5 +1,4 @@
 # convert Excel datasheets with emails to csv
-# https://coderslegacy.com/python/pyqt5-file-dialog/ - диалоги для файлов
 # import numpy as np
 import pandas as pd
 import os.path
