@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2000</width>
+    <height>1500</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Montserrat Medium</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>1xHelper</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(233, 233, 233)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1431</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: rgb(235, 235, 235)</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_1">
+     <widget class="QLabel" name="label_5_bdset">
+      <property name="geometry">
+       <rect>
+        <x>425</x>
+        <y>35</y>
+        <width>181</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Настройка БД</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>100</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Выбрать файл</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>945</x>
+        <y>40</y>
+        <width>181</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Создание HTML</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7_letter">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>590</y>
+        <width>161</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Письмо</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_cross_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>140</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/cross.png</pixmap>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_send">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>670</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="text">
+       <string>отправить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_new_bd">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>140</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>140</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/rectangle.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15_openhtml">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>103</y>
+        <width>131</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Структура письма</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>590</y>
+        <width>181</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Файлы рассылки</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_main_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>222</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Рассылка</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>36</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/summarize.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24_home">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>228</y>
+        <width>33</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/home.png</pixmap>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>8</y>
+        <width>201</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/logo.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_archive_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);
+
+QPushButton::clicked
+{
+background-color : red;
+}</string>
+      </property>
+      <property name="text">
+       <string>Архив</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>47</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/link.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_linktotitle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>384</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Link2title</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>188</y>
+        <width>321</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/activeb.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28_back">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>321</width>
+        <height>881</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(46, 46, 46);
+border: none
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_pics">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>145</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка на картинку</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_button_link">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>265</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка под кнопку</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_logolink">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>425</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка под лого</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_textafter">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>385</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>текст после кнопок</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_edithtml">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>505</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>создать</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_text">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>185</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>текст после первой картинки</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_theme">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>145</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>тема письма</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_button_name">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>225</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>название кнопки</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>615</x>
+        <y>670</y>
+        <width>291</width>
+        <height>171</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_add_to_mail">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>660</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>660</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/rectangle.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_cross_3">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>660</y>
+        <width>190</width>
+        <height>190</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/cross.png</pixmap>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_mail_name">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>465</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>имя рассылки</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_intext_link">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>265</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка в тексте</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_intext_link_name">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>305</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>якорь ссылки в тексте</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_send_test">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>720</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="text">
+       <string>отправить тест</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_test_mail">
+      <property name="geometry">
+       <rect>
+        <x>1190</x>
+        <y>725</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>email</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_pics_2">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>185</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка на вторую картинку</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15_openhtml_3">
+      <property name="geometry">
+       <rect>
+        <x>1085</x>
+        <y>103</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Настройка текста</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_intext_link_2">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>345</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>вторая ссылка в тексте</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_intext_link_name_2">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>385</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>якорь второй ссылки в тексте</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_list">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>425</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>список</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_italic">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>465</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>курсивный текст</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_button_link_2">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>345</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>ссылка под вторую кнопку</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_button_name_2">
+      <property name="geometry">
+       <rect>
+        <x>815</x>
+        <y>305</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>название второй кнопки</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_text_2">
+      <property name="geometry">
+       <rect>
+        <x>1055</x>
+        <y>225</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="plainText">
+       <string>текст после второй картинки</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>793</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/btc_push.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_BTC">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>793</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_BTC">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>790</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+color:  rgb(233, 233, 233);
+border: none;
+margin-top: 5px</string>
+      </property>
+      <property name="plainText">
+       <string>update</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>150</y>
+        <width>20</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>1051</x>
+        <y>150</y>
+        <width>20</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <zorder>line_2</zorder>
+     <zorder>line</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_15_openhtml</zorder>
+     <zorder>label_28_back</zorder>
+     <zorder>label_26</zorder>
+     <zorder>label_5_bdset</zorder>
+     <zorder>label_14</zorder>
+     <zorder>label_17</zorder>
+     <zorder>label_7_letter</zorder>
+     <zorder>pushButton_send</zorder>
+     <zorder>label_8</zorder>
+     <zorder>label_cross_2</zorder>
+     <zorder>label_18</zorder>
+     <zorder>pushButton_main_2</zorder>
+     <zorder>label_23</zorder>
+     <zorder>label_24_home</zorder>
+     <zorder>label_2</zorder>
+     <zorder>pushButton_archive_2</zorder>
+     <zorder>label_25</zorder>
+     <zorder>pushButton_linktotitle</zorder>
+     <zorder>pushButton_new_bd</zorder>
+     <zorder>plainTextEdit_pics</zorder>
+     <zorder>plainTextEdit_button_link</zorder>
+     <zorder>plainTextEdit_logolink</zorder>
+     <zorder>plainTextEdit_textafter</zorder>
+     <zorder>pushButton_edithtml</zorder>
+     <zorder>plainTextEdit_text</zorder>
+     <zorder>plainTextEdit_button_name</zorder>
+     <zorder>listWidget</zorder>
+     <zorder>label_cross_3</zorder>
+     <zorder>pushButton_add_to_mail</zorder>
+     <zorder>plainTextEdit_mail_name</zorder>
+     <zorder>plainTextEdit_intext_link_name</zorder>
+     <zorder>pushButton_send_test</zorder>
+     <zorder>plainTextEdit_test_mail</zorder>
+     <zorder>plainTextEdit_intext_link</zorder>
+     <zorder>plainTextEdit_pics_2</zorder>
+     <zorder>label_15_openhtml_3</zorder>
+     <zorder>plainTextEdit_theme</zorder>
+     <zorder>plainTextEdit_intext_link_2</zorder>
+     <zorder>plainTextEdit_intext_link_name_2</zorder>
+     <zorder>plainTextEdit_list</zorder>
+     <zorder>plainTextEdit_italic</zorder>
+     <zorder>plainTextEdit_button_link_2</zorder>
+     <zorder>plainTextEdit_button_name_2</zorder>
+     <zorder>plainTextEdit_text_2</zorder>
+     <zorder>label</zorder>
+     <zorder>plainTextEdit_BTC</zorder>
+     <zorder>pushButton_BTC</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>250</y>
+        <width>104</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;page 2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>35</y>
+        <width>681</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Конвертировать ссылку в заголовок + рефку</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_in">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>155</y>
+        <width>531</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>115</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Вставить ссылку</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>255</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Заголовок</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>395</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat SemiBold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(46, 46, 46)</string>
+      </property>
+      <property name="text">
+       <string>Рефка</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_copytitle">
+      <property name="geometry">
+       <rect>
+        <x>866</x>
+        <y>375</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Копировать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_copylink">
+      <property name="geometry">
+       <rect>
+        <x>866</x>
+        <y>515</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Копировать</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28_back_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>321</width>
+        <height>881</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(46, 46, 46);
+border: none
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24_home_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>228</y>
+        <width>33</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/home.png</pixmap>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>8</y>
+        <width>201</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/logo.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>47</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/link.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>352</y>
+        <width>321</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/activeb.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31_archive_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>36</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../1xmailer/venv/Scripts/mailer_resources.qrc">:/logos/summarize.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_home_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>222</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Рассылка</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>384</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Link2title</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>300</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Montserrat Medium</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(233, 233, 233);
+background-color: rgba(255, 255, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Архив</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_insterlink">
+      <property name="geometry">
+       <rect>
+        <x>866</x>
+        <y>235</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ок</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_title">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>295</y>
+        <width>531</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_link">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>435</y>
+        <width>531</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <zorder>label_28_back_3</zorder>
+     <zorder>label_19</zorder>
+     <zorder>plainTextEdit_in</zorder>
+     <zorder>label_20</zorder>
+     <zorder>label_21</zorder>
+     <zorder>label_22</zorder>
+     <zorder>pushButton_copytitle</zorder>
+     <zorder>pushButton_copylink</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_32</zorder>
+     <zorder>label_31_archive_3</zorder>
+     <zorder>label_24_home_3</zorder>
+     <zorder>pushButton_home_3</zorder>
+     <zorder>pushButton_4</zorder>
+     <zorder>label_33</zorder>
+     <zorder>pushButton_5</zorder>
+     <zorder>pushButton_insterlink</zorder>
+     <zorder>textBrowser_title</zorder>
+     <zorder>textBrowser_link</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../1xmailer/venv/Scripts/mailer_resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
