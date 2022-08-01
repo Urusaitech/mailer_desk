@@ -1,4 +1,5 @@
 # mailer - example project
+# raw design version
 
 abilities:
 - emails extractor
