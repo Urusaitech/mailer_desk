@@ -1,5 +1,5 @@
 # turn link into title
-# auto-py-to-exe to compile
+# another approach, not used atm
 import re
 # import main
 
