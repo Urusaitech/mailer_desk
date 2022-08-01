@@ -3,8 +3,8 @@ from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 
-def call_kraken_free():
 
+def call_kraken_free():
     resp = requests.get('https://api.kraken.com/0/public/Ticker?pair=xbtusd')
     price = resp.json()
     price = price['result']['XXBTZUSD']['a']
@@ -15,8 +15,6 @@ def call_kraken_free():
 
 # https://pro.coinmarketcap.com/account/
 def call_cmc():
-
-
     url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
     parameters = {
         'slug': 'bitcoin',

@@ -2,14 +2,14 @@
 # курсивный текст
 
 def convert_html(file):
-    #file = ''.join(file)
+    # file = ''.join(file)
     pass
 
 
 def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
-                aftertext, logolink, mail_name, theme, message, intext_link, intext_link_title,
-                sec_intext_link, sec_intext_link_title, listing, italic, path):
-
+                  aftertext, logolink, mail_name, theme, message, intext_link, intext_link_title,
+                  sec_intext_link, sec_intext_link_title, listing, italic, path):
+    # template to edit
     html = '''
     <!DOCTYPE html>
 <html style="width:100%;font-family: Tahoma, Geneva, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0;">
@@ -250,7 +250,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                         <table class="es-header-body" width="600" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;">
                                             <tbody>
                                                 <tr style="border-collapse:collapse;">
-                                                    <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-image:url(https://undergroundev.com/stock-img/bg-footer.jpg);background-color:#444444;background-position:left top;background-repeat:no-repeat;" bgcolor="#444444" align="left">
+                                                    <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-image:url(https://example.com/stock-img/bg-footer.jpg);background-color:#444444;background-position:left top;background-repeat:no-repeat;" bgcolor="#444444" align="left">
                                                         <table class="es-left" cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;">
                                                             <tbody>
                                                                 <tr style="border-collapse:collapse;">
@@ -259,7 +259,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td class="es-m-p0l es-m-txt-c" align="left" style="padding:0;Margin:0;">
-                                                                                        <a href="#logo-link#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#333333;"><img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/logo_white.png" alt="" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;padding:7%;" width="160"></a>
+                                                                                        <a href="#logo-link#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#333333;"><img src="https://example.top/genfiles/cms/65-29/desktop/img/logo_white.png" alt="" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;padding:7%;" width="160"></a>
                                                                                     </td>
                                                                                 </tr>
                                                                         </table>
@@ -340,7 +340,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
 
                                                                     <!-- Ссылка на картинку !-->
                                                                         <td align="left" style="padding:0;Margin:0;">
-                                                                            <img src="https://1xbitdjqrc.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
+                                                                            <img src="https://example.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
                                                                         </td>
                                                                     <!-- /Ссылка на картинку !-->
 
@@ -353,7 +353,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <p style="line-height: 1.5;color:#333333;font-size:16px;">
                                                                                 Dear User! 
                                                                                 <br><br>
-                                                                                You've taken the 1st place in the final prize draw of the <a href="https://1xbit.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You've taken the 1st place in the final prize draw of the <a href="https://example.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>
@@ -367,11 +367,11 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                         </table>
                                                         <br>
 
-<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
 
                                                         <!-- Текст после кнопки !-->
                                                             <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#333333;">
-                                                                Thank you for being part of 1xBit, we appreciate every player!</a>
+                                                                Thank you for being part of Example, we appreciate every player!</a>
                                                             </p>
                                                         <!-- /Текст после кнопки !-->
 
@@ -409,7 +409,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                                     <td style="padding:0;Margin:0px 0px 0px 0px;border-bottom:1px solid #CCCCCC;background:none;height:1px;width:100%;margin:0px;">
                                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#333333;">
                                                                                             Sincerely,
-                                                                                            <br> 1xBit Team
+                                                                                            <br> example Team
                                                                                         </p>
                                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#9b9b9b;">
                                                                                             
@@ -475,7 +475,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                         <table class="es-header-body" width="600" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;">
                             <tbody>
                                 <tr style="border-collapse:collapse;">
-                                    <td style="padding:0;Margin:0;background-image:url(http://1xbet.email/upload/files/unnamed%20%281%29.jpg);background-color:#FFFFFF;background-position:left top;background-repeat:no-repeat;" bgcolor="#ffffff" align="left">
+                                    <td style="padding:0;Margin:0;background-image:url(http://example.email/upload/files/unnamed%20%281%29.jpg);background-color:#FFFFFF;background-position:left top;background-repeat:no-repeat;" bgcolor="#ffffff" align="left">
                                         <table cellspacing="0" cellpadding="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;">
                                             <tbody>
                                                 <tr style="border-collapse:collapse;">
@@ -558,8 +558,8 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:5px;padding-right:5px;">
-                                                                                        <a target="_blank" href="https://www.instagram.com/1xbit/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/ig_logo.png" alt="inst" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.instagram.com/example/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/ig_logo.png" alt="inst" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -580,8 +580,8 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:5px;padding-right:5px;">
-                                                                                        <a target="_blank" href="https://www.reddit.com/r/1xBit_gambling/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/reddit-logo.png" alt="rddt" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.reddit.com/r/example/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/reddit-logo.png" alt="rddt" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -602,8 +602,8 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:10px;">
-                                                                                        <a target="_blank" href="https://twitter.com/1x_bit" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/tw_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://twitter.com/example" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/tw_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -623,8 +623,8 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="right" style="padding:0;Margin:0;padding-left:10px;">
-                                                                                        <a target="_blank" href="https://t.me/sportsbook_1xBit" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/tg_logo.png" alt="teleg" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://t.me/example" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/tg_logo.png" alt="teleg" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -644,8 +644,8 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="right" style="padding:0;Margin:0;padding-left:10px;">
-                                                                                        <a target="_blank" href="https://www.youtube.com/c/1xBit/videos" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/yt_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.youtube.com/c/example/videos" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/yt_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -667,9 +667,9 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                         <tbody>
                                                         <tr style="border-collapse:collapse;">
                                                             <td align="center" style="padding:0;Margin:0;padding-left:10px;padding-right:10px;"><a target="_blank"
-                                                                                                                                                 href="https://www.trustpilot.com/evaluate/1xbit.com"
+                                                                                                                                                 href="https://www.trustpilot.com/evaluate/example.com"
                                                                                                                                                  style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/trustpilot-newsletter.jpg" alt="trust"
+                                                                <img src="https://example.top/genfiles/cms/65-29/desktop/img/trustpilot-newsletter.jpg" alt="trust"
                                                                      style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                             </a></td>
                                                         </tr>
@@ -747,7 +747,7 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family: Tahoma, Geneva, sans-serif;line-height:120%;color:#FFFFFF;">
                                                                             Copyright ©
-                                                                            <!--2016-2020!-->«1xBit» </p>
+                                                                            <!--2016-2020!-->«example» </p>
                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family: Tahoma, Geneva, sans-serif;line-height:120%;color:#FFFFFF;">
                                                                             All rights reserved and protected by law
                                                                         </p>
@@ -774,24 +774,24 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
     '''  # replace with <meta charset="cp1251"> for rus language
 
     # preset of html parts to edit
-    cur_pic = 'https://1xbitdjqrc.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg'
+    cur_pic = 'https://example.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg'
     cur_theme = 'CHEERS FOR THE WINNER!'
     cur_message = '''Dear User! 
                                                                                 <br><br>
-                                                                                You've taken the 1st place in the final prize draw of the <a href="https://1xbit.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You've taken the 1st place in the final prize draw of the <a href="https://example.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>'''
     cur_but_title = 'CLAIM THE PRIZE'
     cur_but_title2 = 'Join in NOW'
-    cur_but_link = 'https://1xbit.com/office/'
-    cur_but_link2 = 'https://1xbit.com/office2/'
-    cur_aftertext = 'Thank you for being part of 1xBit, we appreciate every player!'
-    cur_logolink = 'https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/logo_white.png'
-    find_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+    cur_but_link = 'https://example.com/office/'
+    cur_but_link2 = 'https://example.com/office2/'
+    cur_aftertext = 'Thank you for being part of example, we appreciate every player!'
+    cur_logolink = 'https://example.top/genfiles/cms/65-29/desktop/img/logo_white.png'
+    find_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
 '''
-    add_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
-<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office2/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>Join in NOW</b></a> </span>
+    add_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline;border-radius:5px;width:auto;"> <a href="https://example.com/office2/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>Join in NOW</b></a> </span>
 '''
 
     # edit preset html
@@ -828,13 +828,10 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
     if logolink != 'ссылка под лого':
         new_html = new_html.replace(cur_logolink, logolink)
 
-
-
-
     # clean interface hints
-    mailto = '<a href="mailto:support@partners1xbit.com">support@partners1xbit.com</a>'
+    mailto = '<a href="mailto:support@partnersexample.com">support@partnersexample.com</a>'
     try:
-        new_html = new_html.replace('support@partners1xbit.com', mailto)
+        new_html = new_html.replace('support@partnersexample.com', mailto)
         new_html = new_html.replace("ссылка на картинку", "")
         new_html = new_html.replace("тема письма", "")
         new_html = new_html.replace("текст после первой картинки", "")
@@ -852,7 +849,6 @@ def create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
 def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, sec_but_link,
                   aftertext, logolink, mail_name, theme, message, intext_link, intext_link_title,
                   sec_intext_link, sec_intext_link_title, listing, italic, path, message_2):
-
     html = '''<!DOCTYPE html>
 <html style="width:100%;font-family: Tahoma, Geneva, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0;">
 
@@ -1092,7 +1088,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                         <table class="es-header-body" width="600" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;">
                                             <tbody>
                                                 <tr style="border-collapse:collapse;">
-                                                    <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-image:url(https://undergroundev.com/stock-img/bg-footer.jpg);background-color:#444444;background-position:left top;background-repeat:no-repeat;" bgcolor="#444444" align="left">
+                                                    <td style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-image:url(https://example.com/stock-img/bg-footer.jpg);background-color:#444444;background-position:left top;background-repeat:no-repeat;" bgcolor="#444444" align="left">
                                                         <table class="es-left" cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left;">
                                                             <tbody>
                                                                 <tr style="border-collapse:collapse;">
@@ -1101,7 +1097,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td class="es-m-p0l es-m-txt-c" align="left" style="padding:0;Margin:0;">
-                                                                                        <a href="#logo-link#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#333333;"><img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/logo_white.png" alt="" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;padding:7%;" width="160"></a>
+                                                                                        <a href="#logo-link#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#333333;"><img src="https://example.top/genfiles/cms/65-29/desktop/img/logo_white.png" alt="" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;padding:7%;" width="160"></a>
                                                                                     </td>
                                                                                 </tr>
                                                                         </table>
@@ -1182,7 +1178,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
 
                                                                     <!-- Ссылка на картинку !-->
                                                                         <td align="left" style="padding:0;Margin:0;">
-                                                                            <img src="https://1xbitdjqrc.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
+                                                                            <img src="https://example.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
                                                                         </td>
                                                                     <!-- /Ссылка на картинку !-->
 
@@ -1195,7 +1191,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <p style="line-height: 1.5;color:#333333;font-size:16px;">
                                                                                 Dear User! 
                                                                                 <br><br>
-                                                                                You’ve taken the 1st place in the final prize draw of the <a href="https://1xbit.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You’ve taken the 1st place in the final prize draw of the <a href="https://example.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>
@@ -1209,7 +1205,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
 
                                                                     <!-- Ссылка на картинку !-->
                                                                         <td align="left" style="padding:0;Margin:0;">
-                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/bonus/rules/ben-season-winners.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
+                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/bonus/rules/ben-season-winners.jpg" style="width: 100%; margin-bottom: 2%;margin-top: 2%;" alt="" />
                                                                         </td>
                                                                     <!-- /Ссылка на картинку !-->
 
@@ -1221,7 +1217,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <p style="line-height: 1.5;color:#333333;font-size:16px;">
                                                                                 Dear User! 
                                                                                 <br><br>
-                                                                                You’ve taken the 2st place in the final prize draw of the <a href="https://1xbit.com/promotions/bigger-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You’ve taken the 2st place in the final prize draw of the <a href="https://example.com/promotions/bigger-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>
@@ -1235,10 +1231,10 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                         </table>
                                                         <br>
 
-<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
                                                         <!-- Текст после кнопки !-->
                                                             <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#333333;">
-                                                                Thank you for being part of 1xBit, we appreciate every player!</a>
+                                                                Thank you for being part of example, we appreciate every player!</a>
                                                             </p>
                                                         <!-- /Текст после кнопки !-->
 
@@ -1276,7 +1272,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                                     <td style="padding:0;Margin:0px 0px 0px 0px;border-bottom:1px solid #CCCCCC;background:none;height:1px;width:100%;margin:0px;">
                                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#333333;">
                                                                                             Sincerely,
-                                                                                            <br> 1xBit Team
+                                                                                            <br> example Team
                                                                                         </p>
                                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family: Tahoma, Geneva, sans-serif;line-height:150%;color:#9b9b9b;">
                                                                                             
@@ -1342,7 +1338,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                         <table class="es-header-body" width="600" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;">
                             <tbody>
                                 <tr style="border-collapse:collapse;">
-                                    <td style="padding:0;Margin:0;background-image:url(http://1xbet.email/upload/files/unnamed%20%281%29.jpg);background-color:#FFFFFF;background-position:left top;background-repeat:no-repeat;" bgcolor="#ffffff" align="left">
+                                    <td style="padding:0;Margin:0;background-image:url(http://example.email/upload/files/unnamed%20%281%29.jpg);background-color:#FFFFFF;background-position:left top;background-repeat:no-repeat;" bgcolor="#ffffff" align="left">
                                         <table cellspacing="0" cellpadding="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;">
                                             <tbody>
                                                 <tr style="border-collapse:collapse;">
@@ -1425,8 +1421,8 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:5px;padding-right:5px;">
-                                                                                        <a target="_blank" href="https://www.instagram.com/1xbit/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/ig_logo.png" alt="inst" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.instagram.com/example/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/ig_logo.png" alt="inst" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -1447,8 +1443,8 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:5px;padding-right:5px;">
-                                                                                        <a target="_blank" href="https://www.reddit.com/r/1xBit_gambling/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/reddit-logo.png" alt="rddt" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.reddit.com/r/example_gambling/" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/reddit-logo.png" alt="rddt" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -1470,7 +1466,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="center" style="padding:0;Margin:0;padding-left:10px;">
                                                                                         <a target="_blank" href="https://twitter.com/1x_bit" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/tw_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/tw_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -1490,8 +1486,8 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="right" style="padding:0;Margin:0;padding-left:10px;">
-                                                                                        <a target="_blank" href="https://t.me/sportsbook_1xBit" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/tg_logo.png" alt="teleg" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://t.me/sportsbook_example" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/tg_logo.png" alt="teleg" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -1511,8 +1507,8 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                             <tbody>
                                                                                 <tr style="border-collapse:collapse;">
                                                                                     <td align="right" style="padding:0;Margin:0;padding-left:10px;">
-                                                                                        <a target="_blank" href="https://www.youtube.com/c/1xBit/videos" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                                            <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/yt_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
+                                                                                        <a target="_blank" href="https://www.youtube.com/c/example/videos" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
+                                                                                            <img src="https://example.top/genfiles/cms/65-29/desktop/img/yt_logo.png" alt="" style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -1534,9 +1530,9 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                         <tbody>
                                                         <tr style="border-collapse:collapse;">
                                                             <td align="center" style="padding:0;Margin:0;padding-left:10px;padding-right:10px;"><a target="_blank"
-                                                                                                                                                 href="https://www.trustpilot.com/evaluate/1xbit.com"
+                                                                                                                                                 href="https://www.trustpilot.com/evaluate/example.com"
                                                                                                                                                  style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family: Tahoma, Geneva, sans-serif;font-size:14px;text-decoration:underline;color:#FFFFFF;">
-                                                                <img src="https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/trustpilot-newsletter.jpg" alt="trust"
+                                                                <img src="https://example.top/genfiles/cms/65-29/desktop/img/trustpilot-newsletter.jpg" alt="trust"
                                                                      style="border:2px solid white;border-radius:50%;display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;" width="40">
                                                             </a></td>
                                                         </tr>
@@ -1614,7 +1610,7 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
                                                                     <td align="center" style="padding:0;Margin:0;">
                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family: Tahoma, Geneva, sans-serif;line-height:120%;color:#FFFFFF;">
                                                                             Copyright ©
-                                                                            <!--2016-2020!-->«1xBit» </p>
+                                                                            <!--2016-2020!-->«example» </p>
                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family: Tahoma, Geneva, sans-serif;line-height:120%;color:#FFFFFF;">
                                                                             All rights reserved and protected by law
                                                                         </p>
@@ -1640,31 +1636,31 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
 '''  # replace with <meta charset="cp1251"> for rus language
 
     # preset of html parts to edit
-    cur_pic = 'https://1xbitdjqrc.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg'
-    cur_pic_2 = 'https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/bonus/rules/ben-season-winners.jpg'
+    cur_pic = 'https://example.top//genfiles/cms/65-29/desktop/img/big5winn3.jpg'
+    cur_pic_2 = 'https://example.top/genfiles/cms/65-29/desktop/bonus/rules/ben-season-winners.jpg'
     cur_theme = 'CHEERS FOR THE WINNER!'
     cur_message = '''Dear User! 
                                                                                 <br><br>
-                                                                                You’ve taken the 1st place in the final prize draw of the <a href="https://1xbit.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You’ve taken the 1st place in the final prize draw of the <a href="https://example.com/promotions/big-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>'''
     cur_message_2 = '''Dear User! 
                                                                                 <br><br>
-                                                                                You’ve taken the 2st place in the final prize draw of the <a href="https://1xbit.com/promotions/bigger-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
+                                                                                You’ve taken the 2st place in the final prize draw of the <a href="https://example.com/promotions/bigger-five/">BIG 5</a> tournament and got 500 mBTC, congratulations! 
                                                                                 <br><br>
                                                                                 Your reward has been credited to your personal account.
                                                                                 <br>'''
     cur_but_title = 'CLAIM THE PRIZE'
     cur_but_title2 = 'Join in NOW'
-    cur_but_link = 'https://1xbit.com/office/'
-    cur_but_link2 = 'https://1xbit.com/office2/'
-    cur_aftertext = 'Thank you for being part of 1xBit, we appreciate every player!'
-    cur_logolink = 'https://1xbitdjqrc.top/genfiles/cms/65-29/desktop/img/logo_white.png'
-    find_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+    cur_but_link = 'https://example.com/office/'
+    cur_but_link2 = 'https://example.com/office2/'
+    cur_aftertext = 'Thank you for being part of example, we appreciate every player!'
+    cur_logolink = 'https://example.top/genfiles/cms/65-29/desktop/img/logo_white.png'
+    find_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
     '''
-    add_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
-    <span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline;border-radius:5px;width:auto;"> <a href="https://1xbit.com/office2/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>Join in NOW</b></a> </span>
+    add_button = '''<span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline-block;border-radius:5px;width:auto;"> <a href="https://example.com/office/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>CLAIM THE PRIZE</b></a> </span>
+    <span class="es-button-border" style="border-style:solid;border-color:#808080;background:#E60D0D;border-width:0px;display:inline;border-radius:5px;width:auto;"> <a href="https://example.com/office2/"                                                                    class="es-button" target="_blank"                                                                    style="mso-style-priority:100 !important;text-decoration:none !important;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif;font-size:15px;color:#FFFFFF;border-style:solid;border-color:#E6770E;border-width:10px 40px;display:inline-block;background:#E6770E;font-weight:normal;font-style:normal;line-height:120%;width:auto;text-align:center;border-radius: 5px;"><b>Join in NOW</b></a> </span>
     '''
 
     # edit preset html
@@ -1703,9 +1699,9 @@ def create_html_2(pic_link, sec_pic_link, but_title, but_link, sec_but_title, se
         new_html = new_html.replace(cur_logolink, logolink)
 
     # clean interface hints
-    mailto = '<a href="mailto:support@partners1xbit.com">support@partners1xbit.com</a>'
+    mailto = '<a href="mailto:support@partnersexample.com">support@partnersexample.com</a>'
     try:
-        new_html = new_html.replace('support@partners1xbit.com', mailto)
+        new_html = new_html.replace('support@partnersexample.com', mailto)
         new_html = new_html.replace("ссылка на картинку", "")
         new_html = new_html.replace("тема письма", "")
         new_html = new_html.replace("текст после первой картинки", "")
