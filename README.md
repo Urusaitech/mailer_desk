@@ -2,11 +2,11 @@
 # raw design version
 
 abilities:
-- emails extractor
-- html combiner
+- emails extractor (Pandas) 
+- html combiner 
 - sendgrid api mass mail (in progress)
-- indicates BTC price (CMC)
-- transforms link into title 
+- indicates BTC price (CMC Api)
+- transforms link into title (regex) 
 
 logo and other pics removed to not disclose brand
 
