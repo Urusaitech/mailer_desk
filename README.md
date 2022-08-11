@@ -3,7 +3,7 @@
 
 abilities:
 - emails extractor (Pandas) 
-- html combiner 
+- html templator
 - sendgrid api mass mail (in progress)
 - indicates BTC price (CMC Api)
 - transforms link into title (regex) 
