@@ -1,6 +1,6 @@
-pyperclip
-numpy
-pandas
-pyqt5
-auto-py-to-exe
-requests
+auto-py-to-exe==2.21.0
+pyqt5==5.15.7
+requests==2.28.1
+pandas==1.4.3
+future
+pyperclip==1.8.2
