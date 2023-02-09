@@ -8,6 +8,6 @@ abilities:
 - indicates BTC price (CMC Api)
 - transforms link into title (regex) 
 
-logo and other pics removed to not disclose brand
+logo and other pics removed 
 
 ![How it looks originally](https://i.imgur.com/yCOfM1a.png)
