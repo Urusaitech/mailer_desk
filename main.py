@@ -33,7 +33,8 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         self.pushButton_copylink.clicked.connect(self.copy_link)
         self.pushButton_edithtml.clicked.connect(self.edit_html)
         self.pushButton_BTC.clicked.connect(self.update_btc)
-
+        
+    # TODO: comments
     path = None
 
     char = "UTF-8"
@@ -43,23 +44,27 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
     #    print(code)
     #    if code == "UTF-8":
     #        pass
-
-    def browse_folder(self):
+    # TODO: refactor funcs to methods
+    def browse_folder(self) -> None:
+        # TODO: comments
         directory = QtWidgets.QFileDialog.getExistingDirectory(self, "Choose folder")
         if directory:
             for file_name in os.listdir(directory):
                 self.listWidget.addItem(file_name)
 
-    def clicked(self, item):
+    def clicked(self, item) -> None:
+        # TODO: comments
         print(self, "Info", item.text())
 
-    def dialog(self):
+    def dialog(self) -> str:
+        # TODO: comments
         file, check = QFileDialog.getOpenFileNames(None, "QFileDialog.getOpenFileNames()",
                                                    "", "All Files (*);;OpenDataSheets (*.ods);;Text Files (*.txt)")
         if check:
             return file
 
-    def sort_bd(self):
+    def sort_bd(self) -> None:
+        # TODO: comments
 
         try:
             bd_converter.convert_bd(self.dialog())
@@ -78,7 +83,8 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
             alert.exec_()
             pass
 
-    def open_new_file(self):
+    def open_new_file(self) -> None:
+        # TODO: comments
         self.file_path, filter_type = QFileDialog.getOpenFileName(self, "Open new file",
                                                                   "", "All files (*)")
         if self.file_path:
@@ -89,26 +95,32 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         else:
             self.invalid_path_alert_message()
 
-    def invalid_path_alert_message(self):
+    def invalid_path_alert_message(self) -> None:
         print("Error!")
 
-    def first_page(self):
+    def first_page(self) -> None:
+        # TODO: comments
         self.stackedWidget.setCurrentIndex(0)
 
-    def second_page(self):
+    def second_page(self) -> None:
+        # TODO: comments
         self.stackedWidget.setCurrentIndex(1)
 
-    def third_page(self):
+    def third_page(self) -> None:
+        # TODO: comments
         self.stackedWidget.setCurrentIndex(2)
 
-    def check_in(self):
+    def check_in(self) -> None:
+        # TODO: comments
         check = self.plainTextEdit_in.toPlainText()
         if 'com' in check:
             self.insert_link()
         else:
             self.textBrowser_title.setText('Error! Your link should look like example.com/***')
 
-    def insert_link(self):
+    def insert_link(self) -> None:
+        # TODO: comments
+        # XXX: do not use globals
         global insert, link, text, text_to_copy
         insert = self.plainTextEdit_in.toPlainText()
 
@@ -137,6 +149,7 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
                 flag_names += 1
             else:
                 club2.append(word)
+        # XXX: not very pytonic
         club1 = ' '.join(club1)
         club1 = club1.title()
         club2 = ' '.join(club2)
@@ -152,19 +165,23 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         self.textBrowser_title.setText(text_to_copy)
         self.textBrowser_link.setText(link)
 
-    def copy_title(self):
+    def copy_title(self) -> None:
+        # TODO: comments
         pyperclip.copy(text_to_copy)
 
-    def copy_link(self):
+    def copy_link(self) -> None:
+        # TODO: comments
         pyperclip.copy(link)
 
-    def open_html(self):
+    def open_html(self) -> None:
+        # TODO: comments
         try:
             html_edit.convert_html(self.dialog())
         except:
             pass
 
-    def edit_html(self):
+    def edit_html(self) -> None:
+        # TODO: comments
         try:
             # each variable stores entered value and passes it to the html_edit.py
             pic_link = self.plainTextEdit_pics.toPlainText()
@@ -188,7 +205,7 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
             italic = self.plainTextEdit_italic.toPlainText()
 
             path = QtWidgets.QFileDialog.getExistingDirectory(self, "Choose a folder to save in")
-
+            # XXX: split in smaller funcs
             if sec_pic_link == "ссылка на вторую картинку":
                 html_edit.create_html_1(pic_link, but_title, but_link, sec_but_title, sec_but_link,
                                         aftertext, logolink, mail_name, theme, message, intext_link, intext_link_title,
@@ -204,10 +221,12 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
 
             html_alert.exec_()
         except:
+            # XXX: catch specific exceptions
             print("error in edit_html()")
             pass
 
-    def update_btc(self):
+    def update_btc(self) -> None:
+        # TODO: comments
         try:
             # self.plainTextEdit_BTC.setPlainText(update_rate.call_kraken_free())
             self.plainTextEdit_BTC.setPlainText(update_rate.call_cmc())
@@ -215,10 +234,12 @@ class HelperApp(QtWidgets.QMainWindow, helper.Ui_MainWindow):
         # update_rate.call_cmc()
         # sample2.call_kraken_paid()
         except:
+            # XXX: catch specific exceptions
             pass
 
 
-def main():
+def main() -> None:
+    # TODO: comments
     app = QtWidgets.QApplication(sys.argv)
     window = HelperApp()
     window.show()
