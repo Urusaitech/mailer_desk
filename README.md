@@ -1,4 +1,5 @@
 # mailer - example project
+One of my first projects made accordingly to all the bad practices. Fixed just a little, still works, still useful
 # Early dev version
 
 abilities:
